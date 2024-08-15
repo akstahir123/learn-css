@@ -12,9 +12,9 @@
     --color-blue: blue;
     --color-lightgreen: lightgreen;
     --color-gray: gray;
-    --heading-font: 2.4rem;
+    --heading-font: 2rem;
     --sub-heading: 2rem;
-    --paragraph-heading: 1.5rem;
+    --paragraph-heading: 1rem;
 }
 body{
     width: 100%;
@@ -25,6 +25,7 @@ body{
     max-width: 120rem;
     background-color: black;
     margin-inline: auto;
+    /* display: flex; */
     font-size: var(--paragraph-heading);
 }
 @media (max-width: 120rem){
@@ -38,7 +39,7 @@ body{
     position: relative;
     align-items: center;
     justify-content: space-between;
-    width: 8rem;
+    width: 5rem;
 }
 header.logo{
     font-size: var(--heading-font);
